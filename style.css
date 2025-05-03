@@ -13,6 +13,9 @@ Figtree weight 500 800
 
 body {
     background-color: hsl(47, 88%, 63%);
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -20,15 +23,14 @@ main {
     margin: auto;
     max-width: 400px;
     min-width: 300px;
-    width: 30%;
+    width: 384px;
     height: 500px;
-    margin-top: 60px;
-    padding: 10px;
+    margin-top: 30px;
+    padding: 24px;
     border-radius: 20px;
     font-family: "Figtree", sans-serif;
     box-shadow: 6px 5px 0px black;
-    border-style: solid;
-    border-width: 2px;
+    border: 1px solid #111;
 
 }
 
